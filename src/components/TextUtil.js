@@ -98,7 +98,7 @@ export default function TextUtil(props) {
     return (
         <>
             {alert && (
-                <div className={`alert alert-${alert.type}`} role="alert">
+                <div className={`alert alert-${alert.type} text-center d-flex justify-content-center`} role="alert">
                     {alert.message}
                 </div>
             )}
