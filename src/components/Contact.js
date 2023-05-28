@@ -27,7 +27,7 @@ export default function Contact(props) {
 
   return (
     <>
-    <div className="container w-25 p-3">
+    <div className="container">
       <h2>Contact us</h2><br/>
       <div className="form-floating mb-3">
         <input type="name" className="form-control" data-bs-theme={`${props.mode}`} id="yname" placeholder="name@example.com" />
